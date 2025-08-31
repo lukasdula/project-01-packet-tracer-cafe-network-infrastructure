@@ -20,7 +20,7 @@ Síť je zabezpečena pomocí **hesel pro přístup k zařízení**, **oddělen�
 
 1. [Síťová topologie a použitá zařízení](01-sitova-topologie-a-pouzita-zarizeni.md)
 2. [Adresní a VLAN plánování](02-adresni-a-vlan-planovani.md)
-3. [Základní sítová konfigurace](03-zakladni-sitova-konfigurace.md)
+3. [Základní sítová konfigurace](cz/03‑zakladni-sitova-konfigurace.md)
 4. [VLANy a subinterface](04-vlany-a-subinterface.md)
 5. [NAT a PAT](05-nat-a-pat.md)
 6. [Internet a DNS](06-internet-a-dns.md)
