@@ -1,2 +1,11 @@
 # small-cafe-network
-A small café network project in Cisco Packet Tracer (CZ &amp; EN documentation)
+A small café network project in Cisco Packet Tracer (CZ & EN documentation)
+
+This repository contains my first networking project created in Cisco Packet Tracer.
+
+## Documentation
+You can find the documentation in two languages:
+
+- [English version](en/README.en.md)
+- [Česká verze](cz/README.cs.md)
+
