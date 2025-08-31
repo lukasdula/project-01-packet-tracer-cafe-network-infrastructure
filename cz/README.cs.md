@@ -24,7 +24,7 @@ Síť je zabezpečena pomocí **hesel pro přístup k zařízení**, **oddělen�
 4. [VLANy a subinterface](04-vlany-a-subinterface.md)
 5. [NAT a PAT](05-nat-a-pat.md)
 6. [Internet a DNS](06-internet-a-dns.md)
-7. [Zabezpečení sítě](07-zabezpeceni-site.md)
+7. [Zabezpečení sítě](07‑zabezpeceni‑site.md)
    - Lokální uživatel a heslo pro privilegovaný režim  
    - Varování při přihlášení (MOTD banner)  
    - Zabezpečení Telnet přístupu (VTY lines)  
