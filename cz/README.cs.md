@@ -19,36 +19,26 @@ Síť je zabezpečena pomocí **hesel pro přístup k zařízení**, **oddělen�
 
 ## Struktura projektu (kapitoly)
 
-1. **Síťová topologie a použitá zařízení**
-    
-2. **Adresní a VLAN plánování**
-    
-3. **Základní síťová konfigurace**
-    
-4. **VLANy a subinterface**
-    
-5. **NAT a PAT**
-    
-6. **Internet a DNS**
-    
-7. **Zabezpečení sítě**
-    
-    - Lokální uživatel a heslo pro privilegovaný režim
-    - Varování při přihlášení (MOTD banner)
-    - Zabezpečení Telnet přístupu (VTY lines)
-    - Port Security na zákaznických portech
-    - Administrativní vypnutí nepoužívaných portů
-    - Základní ACL pro omezení provozu mezi VLANami
-        
-8. **Testování konektivity**
-    
-9. **Troubleshooting**
-    
-    - 9.1 Nesprávně přiřazené VLAN ID na subinterface
-    - 9.2 NAT/PAT neprovádí překlad kvůli overload na špatném rozhraní
-    - 9.3 ACL – chybné pořadí pravidel blokující komunikaci
-        
-10. **Shrnutí a závěr**
+1. [Síťová topologie a použitá zařízení](01-sitova-topologie-a-pouzita-zarizeni.md)
+2. [Adresní a VLAN plánování](02-adresni-a-vlan-planovani.md)
+3. [Základní síťová konfigurace](03-zakladni-sitova-konfigurace.md)
+4. [VLANy a subinterface](04-vlany-a-subinterface.md)
+5. [NAT a PAT](05-nat-a-pat.md)
+6. [Internet a DNS](06-internet-a-dns.md)
+7. [Zabezpečení sítě](07-zabezpeceni-site.md)
+   - Lokální uživatel a heslo pro privilegovaný režim  
+   - Varování při přihlášení (MOTD banner)  
+   - Zabezpečení Telnet přístupu (VTY lines)  
+   - Port Security na zákaznických portech  
+   - Administrativní vypnutí nepoužívaných portů  
+   - Základní ACL pro omezení provozu mezi VLANami  
+8. [Testování konektivity](08-testovani-konektivity.md)
+9. [Řešení problémů](09-reseni-problemu.md)
+   - 9.1 Nesprávné přiřazení VLAN ID na subinterface  
+   - 9.2 NAT/PAT neprovádí překlad kvůli overload na špatném rozhraní  
+   - 9.3 ACL – chybné pořadí pravidel blokující komunikaci  
+10. [Shrnutí a závěr](10-shrnuti-a-zaver.md)
+
 
 
 ## Použité nástroje
