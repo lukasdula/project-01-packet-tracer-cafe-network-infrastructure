@@ -7,5 +7,5 @@ This repository contains my first networking project created in Cisco Packet Tra
 You can find the documentation in two languages:
 
 - [English version](en/README.en.md)
-- [Česká verze](cz/README.cs.md)
+- [Czech version](cz/README.cs.md)
 
