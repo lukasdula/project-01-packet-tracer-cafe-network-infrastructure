@@ -50,7 +50,7 @@ The network is secured using **device access passwords, VLAN separation, and res
 ## How to Run the Project
 
 1. Open the `.pkt` file in Cisco Packet Tracer (8.2+).  
-2. Follow the project folders `01–09`.  
+2. Follow the project folders `01–10`.  
 
 ## Key Project Features
 
