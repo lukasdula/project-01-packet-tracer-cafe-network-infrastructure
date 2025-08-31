@@ -32,7 +32,7 @@ Síť je zabezpečena pomocí **hesel pro přístup k zařízení**, **oddělen�
    - Administrativní vypnutí nepoužívaných portů  
    - Základní ACL pro omezení provozu mezi VLANami  
 8. [Testování konektivity](08‑testovani‑konektivity.md)
-9. [Řešení problémů](09-reseni-problemu.md)
+9. [Řešení problémů](09‑reseni-problemu.md)
    - 9.1 Nesprávné přiřazení VLAN ID na subinterface  
    - 9.2 NAT/PAT neprovádí překlad kvůli overload na špatném rozhraní  
    - 9.3 ACL – chybné pořadí pravidel blokující komunikaci  
