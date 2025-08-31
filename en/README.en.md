@@ -17,39 +17,27 @@ For internet connection simulation, **NAT/PAT** was configured towards router R2
 
 The network is secured using **device access passwords, VLAN separation, and restricted access between segments**, ensuring safe operation and protection against unauthorized access.
 
-
 ## Project Structure (Chapters)
 
-1. **Network topology and used devices**
-    
-2. **Addressing and VLAN planning**
-    
-3. **Basic network configuration**
-    
-4. **VLANs and subinterfaces**
-    
-5. **NAT and PAT**
-    
-6. **Internet and DNS**
-    
-7. **Network security**
-    
-    * Local user and password for privileged mode
-    * Login warning (MOTD banner)
-    * Securing Telnet access (VTY lines)
-    * Port Security on customer ports
-    * Administrative shutdown of unused ports
-    * Basic ACL for restricting traffic between VLANs
-    
-8. **Connectivity testing**
-    
-9. **Troubleshooting**
-    
-    * 9.1 Incorrect VLAN ID assigned to subinterface
-    * 9.2 NAT/PAT not performing translation due to overload on the wrong interface
-    * 9.3 ACL – incorrect rule order blocking communication
-    
-10. **Summary and conclusion**
+1. [Network topology and used devices](01-network-topology-and-devices.md)
+2. [Addressing and VLAN planning](02-addressing-and-vlan-planning.md)
+3. [Basic network configuration](03-basic-network-configuration.md)
+4. [VLANs and subinterfaces](04-vlans-and-subinterfaces.md)
+5. [NAT & PAT](05-nat-and-pat.md)
+6. [Internet and DNS](06-internet-and-dns.md)
+7. [Network security](07-network-security.md)
+   - Local user and password for privileged mode  
+   - Login warning (MOTD banner)  
+   - Telnet access security (VTY lines)  
+   - Port Security on client ports  
+   - Administratively shutting down unused ports  
+   - Basic ACL to limit traffic between VLANs  
+8. [Connectivity testing](08-connectivity-testing.md)
+9. [Troubleshooting](09-troubleshooting.md)
+   - 9.1 Incorrect VLAN ID assignment on subinterface  
+   - 9.2 NAT/PAT overload misconfigured on wrong interface  
+   - 9.3 ACL – wrong rule order blocking communication  
+10. [Summary and conclusion](10-summary-and-conclusion.md)
 
 
 
