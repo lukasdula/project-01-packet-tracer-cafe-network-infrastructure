@@ -33,7 +33,7 @@ The network is secured using **device access passwords, VLAN separation, and res
    - Administratively shutting down unused ports  
    - Basic ACL to limit traffic between VLANs  
 8. [Connectivity testing](08-connectivity-testing.md)
-9. [Troubleshooting](09-troubleshooting.md)
+9. [Troubleshooting](09‑troubleshooting.md)
    - 9.1 Incorrect VLAN ID assignment on subinterface  
    - 9.2 NAT/PAT overload misconfigured on wrong interface  
    - 9.3 ACL – wrong rule order blocking communication  
