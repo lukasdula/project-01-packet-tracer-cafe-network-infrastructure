@@ -52,7 +52,7 @@ Síť je zabezpečena pomocí **hesel pro přístup k zařízení**, **oddělen�
 
 1. Otevři `.pkt` soubor v Cisco Packet Traceru (8.2+).
     
-2. Postupuj podle složek projektu `01–09`.    
+2. Postupuj podle složek projektu `01–10`.    
 
 ## Klíčové funkce projektu
 
