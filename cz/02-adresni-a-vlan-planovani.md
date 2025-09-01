@@ -19,7 +19,7 @@ Každé zařízení ve vnitřní síti má staticky přiřazenou IP adresu. Adre
 | PC-4      | Zákazník                                  | 192.168.40.10                | 255.255.255.0 | 192.168.40.1  |
 | Router R1 | Brána do vnitřní sítě                     | 192.168.10.1<br>192.168.99.2 | 255.255.255.0 | 192.168.99.1  |
 | Router R2 | Hraniční router simulující ISP            | 192.168.99.1                 | 255.255.255.0 | —             |
-| \|Server  | Simulace internetových služeb (DNS, HTTP) | 10.10.10.100                 | 255.255.255.0 | 10.10.10.1    |
+|   Server  | Simulace internetových služeb (DNS, HTTP) | 10.10.10.100                 | 255.255.255.0 | 10.10.10.1    |
 
 >**Poznámka:** V tomto návrhu zatím nevyužíváme DHCP server. Cílem je demonstrovat správné manuální přiřazení IP adres. 
 
