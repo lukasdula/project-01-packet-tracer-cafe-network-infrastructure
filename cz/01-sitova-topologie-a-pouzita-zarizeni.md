@@ -26,7 +26,7 @@ Celá síť tak umožňuje otestovat realistický provoz mezi oddělenými VLANa
 | **PC-1 až PC-4** | PC-PT (defaultní) | Pracovní stanice rozmístěné ve VLAN. Každý PC má přidaný modul PT-HOST-NM-1CGE s gigabitovým portem Gig0 pro kvalitní připojení k páteřní síti i vyšší rychlost.                                                                            |
 | **Server**       | Server-PT         | Server simulující internetové služby (DNS, HTTP) pro testování připojení z VLAN.  <br>Připojen k R2 .                                                                                                                                       |
 
- V celé síti jsme použili straight-through měděné kabely, které jsou standardní volbou pro propojení rozdílných zařízení (např. router R1↔ switch SW1, switch SW1 ↔ PC).
+ V celé síti jsem použil straight-through měděné kabely, které jsou standardní volbou pro propojení rozdílných zařízení (např. router R1↔ switch SW1, switch SW1 ↔ PC).
 
 
 ## 1.3 – Přehled topologie – fyzická propojení
