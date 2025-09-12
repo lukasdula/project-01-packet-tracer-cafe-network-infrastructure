@@ -31,4 +31,6 @@ Díky aplikovaným bezpečnostním opatřením (Port Security, ACL, vypnutí por
     
 - **Kapitola 9:** Troubleshooting – řešení tří chybových scénářů (špatné VLAN ID, NAT/PAT na nesprávném rozhraní, pořadí pravidel v ACL) včetně diagnostiky, opravy a ověření.
 
+---
+
 Zpět na přehled projektu: [README](README.cs.md)
