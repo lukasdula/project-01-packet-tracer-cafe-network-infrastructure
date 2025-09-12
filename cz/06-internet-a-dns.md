@@ -157,6 +157,7 @@ Na serveru jsme nastavili a spustili DNS službu pro překlad doménových jmen 
 
 Ověřili jsme, že z klientských PC je možné úspěšně pingnout server pomocí jeho IP adresy i názvu a zároveň načíst webovou stránku z HTTP serveru. Diagnostika potvrdila funkčnost obou služeb a připravenost sítě pro další krok, kterým bude kapitola věnovaná zabezpečení sítě a nastavení ochranných prvků proti neautorizovanému přístupu.
 
+Pokračuj na další kapitolu: [Zabezpečení sítě](07‑zabezpeceni‑site.md)
 
 
 
