@@ -257,7 +257,7 @@ ping 192.168.40.1
 
 V této části jsme na Routeru R1 nastavili překlad adres NAT a jeho rozšíření PAT, díky kterému mohou všechna zařízení v naší vnitřní síti využívat jedinou veřejnou IP adresu pro přístup k internetu. Určili jsme rozhraní směrem do internetu (outside) a do vnitřní sítě (inside), nakonfigurovali přístupovou listinu pro překlad a ověřili funkčnost pomocí oboustranných pingů. Díky tomu jsme potvrdili, že NAT/PAT neblokuje běžnou komunikaci, a připravili jsme síť na propojení s dalšími službami v následující kapitole 6 (DNS a WIFI).
 
-
+Pokračuj na další kapitolu: [Internet a DNS](06-internet-a-dns.md)
 
 
 
