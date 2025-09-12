@@ -76,6 +76,6 @@ Zařízení, která nepodporují CLI rozhraní (např. PC-PT, Server-PT), nemoho
 
 >**Poznámka:** Nastavení Display Name nijak neovlivňuje funkčnost sítě. Slouží pouze pro vizuální přehlednost v GUI.
 
-
+Pokračuj na další kapitolu: [Adresní a VLAN plánování](02-adresni-a-vlan-planovani.md)
 
 
