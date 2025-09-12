@@ -137,3 +137,5 @@ V této kapitole jsme provedli cílené ověření funkčnosti celé sítě po d
 Kompletní testy jednotlivých částí sítě již proběhly průběžně v předchozích kapitolách, zde jsme tedy ověřovali pouze nejdůležitější scénáře. Výsledky potvrdily, že síť funguje podle návrhu a všechny testované služby jsou správně dostupné nebo blokované z hlediska cílů zabezpečení.
 
 Směrování a překlad adres probíhají také správně a bezpečnostní pravidla účinně chrání síť před neautorizovaným přístupem.
+
+Pokračuj na další kapitolu: [Řešení problémů](09‑reseni-problemu.md)
