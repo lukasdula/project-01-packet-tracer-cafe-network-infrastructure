@@ -249,3 +249,5 @@ To confirm that NAT/PAT is not blocking ICMP traffic (pings), we will test the c
 # 5.4 – Summary
 
 In this chapter we successfully configured NAT and PAT on Router R1, letting all internal devices use a single public IP to reach the internet. We marked outside/inside interfaces, created a translation ACL, enabled overload, and verified operation with pings and diagnostic commands. With NAT/PAT confirmed, the network is ready for the next steps of the project (DNS and WIFI).
+
+Continue to the next chapter: [Internet and DNS](06-internet-and-dns.md)
