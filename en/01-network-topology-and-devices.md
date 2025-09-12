@@ -76,3 +76,7 @@ Devices without CLI support (e.g., PC-PT, Server-PT) cannot have their hostname 
     
 
 **Note:** Display Name settings do not affect network functionality; they serve only for visual clarity in the GUI.
+
+---
+
+Continue to the next chapter: [Addressing and VLAN planning](02-addressing-and-vlan-planning.md)
