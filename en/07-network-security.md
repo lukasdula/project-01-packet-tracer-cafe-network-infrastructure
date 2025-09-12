@@ -493,3 +493,5 @@ After deploying ACLs, we verified that the rules work as expected. Tests were co
 In this chapter, we gradually secured the network – starting from banners and passwords (enable secret, Telnet), through Port Security and disabling unused ports, up to ACL to restrict communication between VLANs and allow both key network devices (Routers, PC-1) and essential services like DNS and HTTP.  
 
 The result is an **isolated but fully functional network**, protected by precise **security rules** that minimize the risk of unauthorized access and ensure reliable and controlled operation of the entire café’s network infrastructure.
+
+Continue to the next chapter: [Connectivity testing](08-connectivity-testing.md)
