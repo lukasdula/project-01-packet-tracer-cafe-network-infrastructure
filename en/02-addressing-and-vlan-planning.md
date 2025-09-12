@@ -63,7 +63,9 @@ R2 **does not use a default gateway**, as the simulation ends at the server.
     - on R1 towards R2 (to the server network),
         
     - on R2 back to the VLAN network (internal side).
+---
 
+Continue to the next chapter: [Basic network configuration](03-basic-network-configuration.md)
 
 
 
