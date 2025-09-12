@@ -165,3 +165,5 @@ On R2, we configured the port toward the server, which is located in a separate 
 On the server, we set up and enabled the DNS service for domain name resolution and the HTTP service for web access.  
 We verified that client PCs can successfully ping the server using its IP address and name, and also load a webpage from the HTTP server.  
 Diagnostics confirmed the functionality of both services and the readiness of the network for the next step, which will be the chapter dedicated to network security and the configuration of protective measures against unauthorized access.
+
+Continue to the next chapter: [Network security](07-network-security.md)
