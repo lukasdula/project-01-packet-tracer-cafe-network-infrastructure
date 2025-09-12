@@ -258,3 +258,5 @@ In this section, we created VLANs and assigned the corresponding ports on the sw
 
 In the next chapter, we will focus on configuring static routes (`ip route`) so that the internal VLANs can communicate outside their local network through Router 2.  
 We will also configure NAT/PAT on Router R1 to allow the internal VLANs to access the internet.
+
+Continue to the next chapter: [NAT & PAT](05-nat-and-pat.md)
