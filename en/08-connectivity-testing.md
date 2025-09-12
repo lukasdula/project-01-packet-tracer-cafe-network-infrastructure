@@ -124,7 +124,7 @@ Complete tests of individual network segments had already been carried out throu
 
 Routing and address translation also function correctly, and the security rules effectively protect the network against unauthorized access.
 
-
+Continue to the next chapter: [Troubleshooting](09‑troubleshooting.md)
 
 
 
