@@ -306,7 +306,7 @@ V kapitole jsme postupně řešili několik záměrně vložených chyb v konfig
 
 Každý problém jsme identifikovali pomocí diagnostiky, popsali jeho projev a ověřili správnou funkčnost po opravě. Celá kapitola ukazuje, jak důležité je rozumět logice konfigurace a umět ji číst shora dolů při hledání chyb.
 
-
+Pokračuj na další kapitolu: [Shrnutí a závěr](10-shrnuti-a-zaver.md)
 
 
 
