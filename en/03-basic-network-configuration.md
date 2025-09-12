@@ -175,5 +175,7 @@ We manually assign IP addresses to each PC using the graphical interface at **De
 In this chapter, we named all network devices and configured their static IP addresses according to the addressing plan. Routers R1 and R2 were connected via a dedicated link, which in this project serves as the transition between the internal network and the server simulating the internet.  
 At this stage, communication between the PCs has not yet been established, as VLANs will be configured in the next chapter.
 
+---
 
+Continue to the next chapter: [VLANs and subinterfaces](04-vlans-and-subinterfaces.md)
 
