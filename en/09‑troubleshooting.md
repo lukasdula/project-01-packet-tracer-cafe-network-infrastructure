@@ -305,3 +305,5 @@ After adjusting the ACL, we confirmed that the ping from PC-4 to the server now 
 In this chapter, we addressed several intentionally introduced errors in network configuration. First, we fixed a NAT setting with the **overload** parameter, which was preventing proper address translation. We then corrected a VLAN assignment issue by configuring the correct ports. Finally, we fixed an ACL rule order error where a **deny** rule was placed before a **permit** rule, blocking the intended traffic.
 
 Each problem was identified through diagnostics, its symptoms were described, and functionality was verified after the fix. This chapter highlights the importance of understanding configuration logic and being able to read it from top to bottom when troubleshooting.
+
+Continue to the next chapter: [Summary and conclusion](10-summary-and-conclusion.md)
