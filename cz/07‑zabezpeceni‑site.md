@@ -492,7 +492,7 @@ V této kapitole jsme síť postupně zabezpečili – od **bannerů a hesel** (
 
 Výsledkem je **izolovaná, ale plně funkční síť**, chráněná přesnými **bezpečnostními pravidly**, která minimalizují riziko neoprávněného přístupu a zajišťují spolehlivý a kontrolovaný provoz celé síťové infrastruktury kavárny.
 
-
+Pokračuj na další kapitolu: [Testování konektivity](08‑testovani‑konektivity.md)
 
 
 
