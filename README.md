@@ -1,4 +1,5 @@
-# small-cafe-network
+# lab01-cafe-network-infrastructure
+
 A small café network project in Cisco Packet Tracer (CZ & EN documentation)
 
 This repository contains my first networking project created in Cisco Packet Tracer.
