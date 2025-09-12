@@ -29,3 +29,7 @@ Continuous testing and troubleshooting confirmed that the configuration meets th
 - **Chapter 8:** Connectivity testing -> verification of router interconnection, VLAN communication, NAT/PAT functionality, DNS/HTTP availability, and enforcement of security measures.
     
 - **Chapter 9:** Troubleshooting -> resolution of three error scenarios (incorrect VLAN ID, NAT/PAT on the wrong interface, ACL rule order issues), including diagnostics, fixes, and validation.
+
+---
+
+Back to the project overview: [README](README.md)
