@@ -78,6 +78,6 @@ Zařízení, která nepodporují CLI rozhraní (např. PC-PT, Server-PT), nemoho
 
 ---
 
-Pokračuj na další kapitolu: [Adresní a VLAN plánování](02-adresni-a-vlan-planovani.md)
+Pokračovat na další kapitolu: [Adresní a VLAN plánování](02-adresni-a-vlan-planovani.md)
 
 
