@@ -60,7 +60,7 @@ Devices without CLI support (e.g., PC-PT, Server-PT) cannot have their hostname 
 
 - Router-PT (Router R1) – **Router R1**
     
-- Router-PT (Router R2) – **Router R2**
+- Router-PT (Router R2) – **Router R2 - ISP**
     
 - Switch-PT – **Switch SW1**
     
