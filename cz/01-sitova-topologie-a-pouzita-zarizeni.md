@@ -13,7 +13,7 @@ Celá síť tak umožňuje otestovat realistický provoz mezi oddělenými VLANa
 
 **Důležitý poznatek:** Projekt je koncipován čistě jako ukázka kabelové infrastruktury – Wi-Fi zde není součástí budované sítě. Cílem je ukázat stabilní, spolehlivou a zabezpečenou strukturu pevné sítě, která je ideální pro prezentaci konfigurací a výukových účelu v oblasti CNNA I.
 
-![](00-obrazky/topologicka-mapa202508130033171.png)
+![](00-obrazky/topology-map202509131755331.png)
 
 
 ## 1.2 – Použitá zařízení
