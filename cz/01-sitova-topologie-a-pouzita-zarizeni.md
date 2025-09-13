@@ -1,7 +1,7 @@
-# **1 – Síťová topologie a použitá zařízení**
+# **1 - Síťová topologie a použitá zařízení**
 
 
-## 1.1 – Úvod
+## 1.1 - Úvod
 
 Topologie této sítě byla navržena tak, aby věrně simulovala provoz malé firemní sítě s přístupem k Internetu. Obsahuje čtyři počítače připojené přes switch, směrování mezi VLAN pomocí centrálního routeru R1, druhý router simulující modem poskytovatele internetu (ISP) a server poskytující internetové služby.
 
@@ -16,7 +16,7 @@ Celá síť tak umožňuje otestovat realistický provoz mezi oddělenými VLANa
 ![](00-obrazky/topology-map202509131755331.png)
 
 
-## 1.2 – Použitá zařízení
+## 1.2 - Použitá zařízení
 
 | Typ zařízení     | Model             | Využití v síti                                                                                                                                                                                                                              |
 | ---------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,10 +29,10 @@ Celá síť tak umožňuje otestovat realistický provoz mezi oddělenými VLANa
  V celé síti jsem použil straight-through měděné kabely, které jsou standardní volbou pro propojení rozdílných zařízení (např. router R1↔ switch SW1, switch SW1 ↔ PC).
 
 
-## 1.3 – Přehled topologie – fyzická propojení
+## 1.3 - Přehled topologie – fyzická propojení
 
 
-| Zařízení   | Rozhraní | Připojeno k | Rozhraní (peer) | Poznámka                                     |
+| Zařízení   | Rozhraní | Připojeno k -> | Rozhraní (peer) | Poznámka                                     |
 | ---------- | -------- | ----------- | --------------- | -------------------------------------------- |
 | Router R1  | Gig0/1   | Switch SW1  | Gig0/1          | Hlavní propojení mezi switchem a routerem R1 |
 | Router R1  | Gig0/0   | Router R2   | Gig0/1          | Směrování k hraničnímu routeru (ISP)         |
@@ -47,7 +47,7 @@ Celá síť tak umožňuje otestovat realistický provoz mezi oddělenými VLANa
 | Server     | Fa0      | Router R2   | Gig0/0          | Simulovaná internetová síť                   |
 
 
-## 1.4 – Pojmenování zařízení přes Display Name
+## 1.4 - Pojmenování zařízení přes Display Name
 
 Pro lepší orientaci v topologii byla všem zařízením v síti nastavena hodnota **Display Name**. Nastavení probíhalo u každého zařízení v rozhraní:
 
