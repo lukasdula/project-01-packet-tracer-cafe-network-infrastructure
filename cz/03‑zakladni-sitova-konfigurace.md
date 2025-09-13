@@ -167,4 +167,4 @@ Každému PC jsme nastavili potřebné IP adresy, masky a výchozí brány pro b
 
 V této kapitole jsme pojmenovali všechna síťová zařízení a nastavili jejich statické IP adresy podle adresního plánu. Routery R1 a R2 jsme propojili v rámci samostatného propojení, které v projektu slouží jako přechod mezi vnitřní sítí a serverem simulujícím internet. V této fázi ještě není mezi jednotlivými PC nastavena vzájemná komunikace, protože VLANy budou konfigurovány až v další kapitole.
 
-Pokračuj na další kapitolu: [VLANy a subinterface](04-vlany-a-subinterface.md)
+Pokračovat na další kapitolu: [VLANy a subinterface](04-vlany-a-subinterface.md)
