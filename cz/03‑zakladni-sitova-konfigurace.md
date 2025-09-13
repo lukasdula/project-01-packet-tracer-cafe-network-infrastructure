@@ -104,6 +104,7 @@ Pro ověření, že byla IP adresa správně nastavena na rozhraní routeru R1, 
 show ip interface brief
 ```
 ![](00-obrazky/diagnostika20250807125819.png)
+
 Tento příkaz zobrazí přehled všech rozhraní a jejich IP adres. Na výstupu jsme zkontrolovali, že rozhraní `GigabitEthernet0/0` má IP adresu `192.168.99.2` a je ve stavu `up`.
 
 > **Poznámka:** Tento příkaz je ideální pro rychlé ověření stavu rozhraní a nastavených IP adres na routeru. Výstup obsahuje sloupce jako Interface, IP-Address, OK?, Method, Status a Protocol.
