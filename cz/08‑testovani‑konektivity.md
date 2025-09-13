@@ -138,4 +138,4 @@ Kompletní testy jednotlivých částí sítě již proběhly průběžně v př
 
 Směrování a překlad adres probíhají také správně a bezpečnostní pravidla účinně chrání síť před neautorizovaným přístupem.
 
-Pokračuj na další kapitolu: [Řešení problémů](09‑reseni-problemu.md)
+Pokračovat na další kapitolu: [Řešení problémů](09‑reseni-problemu.md)
