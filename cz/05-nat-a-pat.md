@@ -26,7 +26,7 @@ Než začneme nastavovat NAT/PAT, musíme zajistit, aby si oba routery dokázaly
 - **R2** musí znát cesty do všech interních VLAN (10–40), aby mohl odpovědi posílat zpět.
     
 
-V naší topologii je propojení mezi R1 a R2 realizováno přes síť 192.168.99.0/24 (VLAN 99 – simulace internetu).
+V naší topologii je propojení mezi R1 a R2 realizováno přes síť 192.168.99.0/24.
 
 - **Rozhraní R1 (GigabitEthernet0/0)** má adresu 192.168.99.2
     
