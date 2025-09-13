@@ -263,7 +263,7 @@ V této části jsme vytvořili VLANy a přiřadili k nim odpovídající porty 
 V další kapitole se zaměříme na nastavení statických tras (`ip route`), aby vnitřní VLANy mohly komunikovat mimo svou lokální síť přes Router 2.  
 Také nakonfigurujeme NAT/PAT na Routeru R1, aby vnitřní VLANy měly přístup k internetu.
 
-Pokračuj na další kapitolu: [NAT a PAT](05-nat-a-pat.md)
+Pokračovat na další kapitolu: [NAT a PAT](05-nat-a-pat.md)
 
 
 
