@@ -6,7 +6,7 @@
 Topologie této sítě byla navržena tak, aby věrně simulovala provoz malé firemní sítě s přístupem k Internetu. Obsahuje čtyři počítače připojené přes switch, směrování mezi VLAN pomocí centrálního routeru R1, druhý router simulující modem poskytovatele internetu (ISP) a server poskytující internetové služby.
 
 **Router R1** hraje klíčovou roli jako centrální prvek vnitřní sítě – zajišťuje směrování mezi VLANami a provádí NAT/PAT pro přístup směrem ven.  
-**Router R2** slouží jako simulovaný poskytovatel připojení k Internetu (ISP gateway) a tvoří hranici mezi interní sítí a „vnějším světem“.  
+**Router R2** slouží jako simulovaný poskytovatel připojení k Internetu (ISP) a tvoří hranici mezi interní sítí a „vnějším světem“.  
 **Server**, připojený za routerem R2 v samostatné síti, simuluje internetové služby – poskytuje **DNS (překlad domén)** a **HTTP (webový obsah)**, čímž umožňuje testování plného síťového provozu z interních VLAN.
 
 Celá síť tak umožňuje otestovat realistický provoz mezi oddělenými VLANami s přístupem k simulovanému Internetu.
