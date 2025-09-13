@@ -14,7 +14,7 @@ This setup enables full testing of inter-VLAN communication and simulated Intern
 
 **Important note:** This project focuses solely on showcasing a wired network infrastructure – Wi-Fi is not part of the built network. The goal is to demonstrate a stable, reliable, and secure wired structure, ideal for presenting configurations and training purposes within CCNA I.
 
-![](00-images/topology-map20250813003317.png)
+![](00-images/topology-map20250913175533.png)
 
 ## 1.2 – Used Devices
 
