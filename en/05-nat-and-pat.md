@@ -26,7 +26,7 @@ Before we start NAT/PAT, we make sure both routers can deliver traffic to each o
     
 - **R2** must know the routes to all internal VLANs (10–40) so it can send the replies back.
 
-Our link between R1 and R2 is the 192.168.99.0/24 network (VLAN 99 – internet simulation).
+Our link between R1 and R2 is the 192.168.99.0/24 network.
 
 - R1 interface (GigabitEthernet0/0) has IP 192.168.99.2
     
