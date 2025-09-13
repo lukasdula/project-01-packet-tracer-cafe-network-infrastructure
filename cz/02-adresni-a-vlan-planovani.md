@@ -66,4 +66,4 @@ Router R2 **nepoužívá výchozí bránu**, protože simulace končí na server
 
 ---
 
-Pokračuj na další kapitolu: [Základní sítová konfigurace](03‑zakladni-sitova-konfigurace.md)
+Pokračovat na další kapitolu: [Základní sítová konfigurace](03‑zakladni-sitova-konfigurace.md)
