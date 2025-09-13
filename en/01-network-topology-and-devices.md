@@ -7,7 +7,7 @@
 The topology of this network is designed to accurately simulate the operation of a small business network with Internet access. It includes four PCs connected via a switch, inter-VLAN routing via the central router R1, a second router simulating an Internet Service Provider (ISP) modem, and a server providing Internet services.
 
 **Router R1** plays a key role as the central component of the internal network – it handles inter-VLAN routing and performs NAT/PAT for outbound connectivity.  
-**Router R2** acts as a simulated Internet Service Provider (ISP gateway), forming the boundary between the internal network and the "outside world".  
+**Router R2** acts as a simulated Internet Service Provider (ISP), forming the boundary between the internal network and the "outside world".  
 **The server**, connected behind R2 in a separate network, simulates Internet services – it provides **DNS (domain name resolution)** and **HTTP (web content)**, allowing VLAN clients to test realistic connectivity scenarios.
 
 This setup enables full testing of inter-VLAN communication and simulated Internet access in a controlled environment.
