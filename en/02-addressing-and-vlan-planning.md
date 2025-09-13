@@ -16,8 +16,8 @@ Every device in the internal network has a statically assigned IP address. Addre
 | PC-2      | Customer                                | 192.168.20.10               | 255.255.255.0 | 192.168.20.1    |
 | PC-3      | Customer                                | 192.168.30.10               | 255.255.255.0 | 192.168.30.1    |
 | PC-4      | Customer                                | 192.168.40.10               | 255.255.255.0 | 192.168.40.1    |
-| Router R1 | Gateway to the internal network         | 192.168.10.1 / 192.168.99.2 | 255.255.255.0 | 192.168.99.1    |
-| Router R2 | Edge router simulating an ISP           | 192.168.99.1                | 255.255.255.0 | —               |
+| Router R1 | Gateway to the internal network         | 192.168.10.1 / 192.168.99.2 | 255.255.255.0 | N/A    |
+| Router R2 | Edge router simulating an ISP           | 192.168.99.1                | 255.255.255.0 | N/A             |
 | Server    | Simulated Internet services (DNS, HTTP) | 10.10.10.100                | 255.255.255.0 | 10.10.10.1      |
 
 **Note:** In this design, we are not yet using a DHCP server. The purpose is to demonstrate correct manual IP assignment.
