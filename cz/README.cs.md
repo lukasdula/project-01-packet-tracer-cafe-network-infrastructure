@@ -38,7 +38,13 @@ Síť je zabezpečena pomocí **hesel pro přístup k zařízení**, **oddělen�
    - 9.3 ACL – chybné pořadí pravidel blokující komunikaci  
 10. [Shrnutí a závěr](10-shrnuti-a-zaver.md)
 
+## Přístup do CLI zařízení
 
+Pro ukázkové účely byly nakonfigurovány přihlašovací údaje k síťovým zařízením. Tyto údaje umožňují vstup do CLI a následně do privilegovaného režimu:
+
+Uživatelský účet (console + Telnet): cafeadmin / Espresso25
+
+Privilegovaný režim (enable secret): Arabickashot25
 
 
 ## Použité nástroje
