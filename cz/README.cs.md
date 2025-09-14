@@ -42,11 +42,11 @@ Síť je zabezpečena pomocí **hesel pro přístup k zařízení**, **oddělen�
 
 Pro ukázkové účely byly nakonfigurovány přihlašovací údaje k síťovým zařízením. Tyto údaje umožňují vstup do CLI a následně do privilegovaného režimu:
 
-Uživatelské jméno (console + Telnet): cafeadmin
+Uživatelské jméno (console + Telnet): `cafeadmin`
 
-Uživatelské heslo: Espresso25
+Uživatelské heslo: `Espresso25`
 
-Enable secret (privilegovaný režim): Arabickashot25
+Enable secret (privilegovaný režim): `Arabickashot25`
 
 
 ## Použité nástroje
