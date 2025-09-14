@@ -57,21 +57,21 @@ Zařízení, která nepodporují CLI rozhraní (např. PC-PT, Server-PT), nemoho
 
 **Display Name přehled:**
 
-- Router-PT (Router R1) – **Router R1**
+- Router-PT (Router R1) - **Router R1**
     
-- Router-PT (Router R2) – **Router R2 - ISP**
+- Router-PT (Router R2) - **Router R2 - ISP**
     
-- Switch-PT – **Switch SW1**
+- Switch-PT - **Switch SW1**
     
-- PC-PT (PC1) – **PC-1**
+- PC-PT (PC1) - **PC-1**
     
-- PC-PT (PC2) – **PC-2**
+- PC-PT (PC2) - **PC-2**
     
-- PC-PT (PC3) – **PC-3**
+- PC-PT (PC3) - **PC-3**
     
-- PC-PT (PC4) – **PC-4**
+- PC-PT (PC4) - **PC-4**
     
-- Server-PT – **Internet-Server**
+- Server-PT - **Internet-Server**
     
 
 >**Poznámka:** Nastavení Display Name nijak neovlivňuje funkčnost sítě. Slouží pouze pro vizuální přehlednost v GUI.
