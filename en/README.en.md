@@ -39,7 +39,15 @@ The network is secured using **device access passwords, VLAN separation, and res
    - 9.3 ACL – wrong rule order blocking communication  
 10. [Summary and conclusion](10-summary-and-conclusion.md)
 
+##CLI device access
 
+For lab purposes, the following credentials were configured on the network devices. They allow access to the CLI and, after authentication, to privileged mode:
+
+Username (console + Telnet): `cafeadmin`
+
+User password: `Espresso25`
+
+Enable secret (privileged mode): `Arabickashot25`
 
 ## Tools Used
 
