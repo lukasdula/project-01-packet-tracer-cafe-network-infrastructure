@@ -1,8 +1,8 @@
-# 1 – Network Topology and Used Devices
+# 1 - Network Topology and Used Devices
 
 
 
-## 1.1 – Introduction
+## 1.1 - Introduction
 
 The topology of this network is designed to accurately simulate the operation of a small business network with Internet access. It includes four PCs connected via a switch, inter-VLAN routing via the central router R1, a second router simulating an Internet Service Provider (ISP) modem, and a server providing Internet services.
 
@@ -16,7 +16,7 @@ This setup enables full testing of inter-VLAN communication and simulated Intern
 
 ![](00-images/topology-map20250913175533.png)
 
-## 1.2 – Used Devices
+## 1.2 - Used Devices
 
 | Device Type      | Model           | Role in the Network                                                                                                                                                                                                                                                                 |
 | ---------------- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -26,13 +26,13 @@ This setup enables full testing of inter-VLAN communication and simulated Intern
 | **PC-1 to PC-4** | PC-PT (default) | Workstations placed in VLANs. Each PC is equipped with a PT-HOST-NM-1CGE module with a Gigabit (Gig0) port for quality backbone connection and higher speeds.                                                                                                                       |
 | **Server**       | Server-PT       | Server simulating Internet services (DNS, HTTP) for VLAN connectivity testing.  <br>Connected to R2.                                                                                                                                                                                |
 
-All connections in the network use straight-through copper cables, the standard choice for connecting different device types (router ↔ switch, switch ↔ PC).
+All connections in the network use straight-through copper cables, the standard choice for connecting different device types (router <-> switch, switch ↔ PC).
 
 ---
 
 ## 1.3 – Topology Overview – Physical Connections
 
-| Device       | Interface | Connected To | Peer Interface | Note                                                |
+| Device       | Interface | Connected To ->| Peer Interface | Note                                                |
 | ------------ | --------- | ------------ | -------------- | --------------------------------------------------- |
 | Router R1    | Gig0/1    | Switch SW1   | Gig0/1         | Main link between SW1 and R1                        |
 | Router R1    | Gig0/0    | Router R2    | Gig0/1         | Connection to edge router (ISP gateway)             |
@@ -48,7 +48,7 @@ All connections in the network use straight-through copper cables, the standard 
 
 ---
 
-## 1.4 – Device Naming (Display Name)
+## 1.4 - Device Naming (Display Name)
 
 To improve orientation in the topology, all devices were assigned a **Display Name** value in:
 
@@ -62,17 +62,17 @@ Devices without CLI support (e.g., PC-PT, Server-PT) cannot have their hostname 
     
 - Router-PT (Router R2) – **Router R2 - ISP**
     
-- Switch-PT – **Switch SW1**
+- Switch-PT - **Switch SW1**
     
-- PC-PT (PC1) – **PC-1**
+- PC-PT (PC1) - **PC-1**
     
-- PC-PT (PC2) – **PC-2**
+- PC-PT (PC2) - **PC-2**
     
-- PC-PT (PC3) – **PC-3**
+- PC-PT (PC3) - **PC-3**
     
-- PC-PT (PC4) – **PC-4**
+- PC-PT (PC4) - **PC-4**
     
-- Server-PT – **Internet-Server**
+- Server-PT - **Internet-Server**
     
 
 **Note:** Display Name settings do not affect network functionality; they serve only for visual clarity in the GUI.
