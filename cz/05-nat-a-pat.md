@@ -1,7 +1,7 @@
-# **5 – NAT a PAT**  
+# **5 - NAT a PAT**  
 
 
-## 5.1 – Úvod
+## 5.1 - Úvod
 
 V této části projektu nakonfigurujeme překlad síťových adres (NAT – Network Address Translation) a portů (PAT – Port Address Translation) na routeru R1.  
 Cílem bude umožnit všem interním VLAN (Guest 1 až 4) a routeru R1, R2 přístup k serveru, který v naší topologii zajišťuje funkce simulovaného internetu (například překlad domén – DNS). 
@@ -17,7 +17,7 @@ Ještě před samotnou konfigurací NAT/PAT přidáme potřebné statické směr
 
 
 
-## 5.2 – Statické směrování (ip route) mezi R1 a R2
+## 5.2 - Statické směrování (ip route) mezi R1 a R2
 
 Než začneme nastavovat NAT/PAT, musíme zajistit, aby si oba routery dokázaly navzájem doručit provoz.
 
@@ -113,7 +113,7 @@ ping 192.168.40.1
 
 
 
-## 5.3 – Konfigurace NAT/PAT na R1
+## 5.3 - Konfigurace NAT/PAT na R1
 
 V této části provedeme nastavení překladu adres a portů na routeru R1, aby interní VLAN (10–40) mohly komunikovat s internetem přes router R2.  
 Na rozhraní `GigabitEthernet0/0` (192.168.99.2) bude R1 překládat veškerý odchozí provoz z interních sítí na svou veřejnou IP adresu.
@@ -253,7 +253,7 @@ ping 192.168.40.1
 
 
 
-## 5.4 – Shrnutí 
+## 5.4 - Shrnutí 
 
 V této části jsme na Routeru R1 nastavili překlad adres NAT a jeho rozšíření PAT, díky kterému mohou všechna zařízení v naší vnitřní síti využívat jedinou veřejnou IP adresu pro přístup k internetu. Určili jsme rozhraní směrem do internetu (outside) a do vnitřní sítě (inside), nakonfigurovali přístupovou listinu pro překlad a ověřili funkčnost pomocí oboustranných pingů. Díky tomu jsme potvrdili, že NAT/PAT neblokuje běžnou komunikaci, a připravili jsme síť na propojení s dalšími službami v následující kapitole 6 (DNS a WIFI).
 
