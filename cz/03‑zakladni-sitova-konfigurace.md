@@ -1,9 +1,9 @@
-# **3 – Základní síťová konfigurace**
+# **3 - Základní síťová konfigurace**
 
-## 3.1 – Úvod
+## 3.1 - Úvod
 
 Tato kapitola se zaměřuje na základní síťovou konfiguraci, která připraví prostředí pro další kroky projektu. Provedeme pojmenování zařízení pro lepší orientaci, nastavíme statické IP adresy na routerech i počítačích a nakonfigurujeme propojení mezi routery R1 a R2. Tyto kroky tvoří nezbytný základ pro budoucí konfiguraci VLAN a směrování.
-## 3.2 – Pojmenování zařízení
+## 3.2 - Pojmenování zařízení
 
 V první části této kapitoly nastavíme názvy (hostname) všem zařízením, která mají přístup do rozhraní CLI. Tím zlepšíme orientaci v síti a pozdější konfigurace bude přehlednější.
 
@@ -53,7 +53,7 @@ write memory
 ###### ![](00-obrazky/konfigurace-hostname20250806191318.png)
 
 
-## 3.3 – Nastavení statických IP adres na routerech
+## 3.3 - Nastavení statických IP adres na routerech
 
 Podle plánovací tabulky z kapitoly 3 nastavíme IP adresy pro routery. 
 Každé zařízení dostane IP adresu, která odpovídá jeho budoucímu přiřazení do VLAN. Maska je ve všech případech /24 (255.255.255.0).
@@ -112,12 +112,12 @@ Tento příkaz zobrazí přehled všech rozhraní a jejich IP adres. Na výstupu
 
 
 
-## 3.4 – Statické IP adresy na PC
+## 3.4 - Statické IP adresy na PC
 
-Nastavujeme ručně IP adresy na všech PC pomocí grafického rozhraní v záložce **Desktop → IP Configuration**. IP adresy odpovídají rozdělení do budoucích VLAN.
+Nastavujeme ručně IP adresy na všech PC pomocí grafického rozhraní v záložce **Desktop -> IP Configuration**. IP adresy odpovídají rozdělení do budoucích VLAN.
 
 
-###  PC-1 – Zaměstnanci (staff)
+###  PC-1 - Zaměstnanci (staff)
 
 - IP: `192.168.10.10`
     
@@ -130,7 +130,7 @@ Nastavujeme ručně IP adresy na všech PC pomocí grafického rozhraní v zálo
 Pomocí příkazu `ipconfig` jsme ověřili, že konfigurace byla úspěšně nastavena.
 
 ![](00-obrazky/ipconfig20250807002220.png)
-### PC-2 – Host (guest)
+### PC-2 - Host (guest)
 
 - IP: `192.168.20.10`
     
@@ -139,7 +139,7 @@ Pomocí příkazu `ipconfig` jsme ověřili, že konfigurace byla úspěšně na
 - Brána: `192.168.20.1`
 
 ![](00-obrazky/nastaveni-ip20250807003026.png)
-### PC-3 – Host (guest)
+### PC-3 - Host (guest)
 
 - IP: `192.168.30.10`
     
@@ -149,7 +149,7 @@ Pomocí příkazu `ipconfig` jsme ověřili, že konfigurace byla úspěšně na
 
 ![](00-obrazky/nastaveni-ip20250807003217.png)
 
-### PC-4 – Host (guest)
+### PC-4 - Host (guest)
 
 - IP: `192.168.40.10`
     
@@ -163,7 +163,7 @@ Každému PC jsme nastavili potřebné IP adresy, masky a výchozí brány pro b
 
 >**Poznámka:** Konfigurace přes CLI není možná, protože PC v Packet Traceru nemají IOS. Nastavení však můžete ověřit pomocí příkazu `ipconfig` v **Příkazovém řádku**.
 
-## 3.5 – Shrnutí
+## 3.5 - Shrnutí
 
 V této kapitole jsme pojmenovali všechna síťová zařízení a nastavili jejich statické IP adresy podle adresního plánu. Routery R1 a R2 jsme propojili v rámci samostatného propojení, které v projektu slouží jako přechod mezi vnitřní sítí a serverem simulujícím internet. V této fázi ještě není mezi jednotlivými PC nastavena vzájemná komunikace, protože VLANy budou konfigurovány až v další kapitole.
 
