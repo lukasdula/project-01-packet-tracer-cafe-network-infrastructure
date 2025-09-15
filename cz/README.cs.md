@@ -7,9 +7,9 @@
 Tento projekt představuje návrh, konfiguraci a testování malé podnikové sítě pro kavárnu.  
 Hlavním cílem je vytvořit funkční, oddělené a bezpečné prostředí pro dvě části provozu:
 
-- **Interní síť zaměstnanců** – přístup k hlavnímu počítači (pokladní systém) a interním zařízením kavárny (router, modem, switch) a možnost správy zákaznických počítačů.
+- **Interní síť zaměstnanců** - přístup k hlavnímu počítači (pokladní systém) a interním zařízením kavárny (router, modem, switch) a možnost správy zákaznických počítačů.
     
-- **Veřejná síť pro zákazníky** – přístup přes tři veřejné počítače s připojením k internetu a bez možnosti vstupu do interní sítě.
+- **Veřejná síť pro zákazníky** - přístup přes tři veřejné počítače s připojením k internetu a bez možnosti vstupu do interní sítě.
     
 
 Síť byla nastavena ručně v prostředí **Cisco Packet Tracer** pomocí rozhraní CLI. Přenosy jsou oddělené pomocí **VLAN**, propojení mezi routerem a switchem je řešeno metodou **Router-on-a-Stick**.  
@@ -35,7 +35,7 @@ Síť je zabezpečena pomocí **hesel pro přístup k zařízení**, **oddělen�
 9. [Řešení problémů](09‑reseni-problemu.md)
    - 9.1 Nesprávné přiřazení VLAN ID na subinterface  
    - 9.2 NAT/PAT neprovádí překlad kvůli overload na špatném rozhraní  
-   - 9.3 ACL – chybné pořadí pravidel blokující komunikaci  
+   - 9.3 ACL - chybné pořadí pravidel blokující komunikaci  
 10. [Shrnutí a závěr](10-shrnuti-a-zaver.md)
 
 ## Přístup do CLI zařízení
