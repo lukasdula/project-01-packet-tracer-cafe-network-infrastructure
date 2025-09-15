@@ -1,7 +1,7 @@
-# 9 – Troubleshooting
+# 9 - Troubleshooting
 
 
-## 9.1 – Úvod
+## 9.1 - Úvod
 
 I při pečlivé konfiguraci se může do nastavení vloudit malá, ale zásadní chyba, která naruší provoz celé sítě. Stačí přepsání čísla nebo nechtěné zadání jiné hodnoty a síť přestane fungovat podle očekávání. V takové chvíli je nutné rychle rozpoznat příznaky problému, určit jeho příčinu a obnovit funkčnost.
 
@@ -10,7 +10,7 @@ Tato kapitola obsahuje **tři scénáře** vycházející z reálné konfigurace
 >**Poznámka„:** V rámci projektu jsme záměrně vytvořili několik chybových scénářů pro simulaci běžných problémů v síťovém provozu. Cílem bylo si procvičit diagnostiku a opravu konfigurace.“
 
 
-## 9.2 –  Chybná konfigurace VLAN ID na subinterface
+## 9.2 -  Chybná konfigurace VLAN ID na subinterface
 
 Při konfiguraci routeru R1 byla na jedné z podrozhraní (`GigabitEthernet0/1.20`) omylem nastavena nesprávná hodnota **VLAN ID**. Místo správného `dot1Q 20` bylo zadáno `dot1Q 200`. Taková chyba na první pohled nemusí být patrná a může se projevit až při testování konektivity.
 
@@ -100,7 +100,7 @@ Tento scénář ukazuje, že i drobná chyba v nastavení **VLAN ID** může zp�
 
 
 
-## 9.3 – NAT/PAT nepřekládá kvůli overloadu na špatném rozhraní
+## 9.3 - NAT/PAT nepřekládá kvůli overloadu na špatném rozhraní
 
 Po úpravě NATu na R1 se z klientských VLAN nedaří „ven“ na server `10.10.10.100`. Směrování je v pořádku, ale NAT **nevytváří překlady**. Příčina: pravidlo `overload` je omylem svázané s **rozhraním G0/1** (směr do switche), místo s **G0/0** (směr k R2).
 
@@ -188,7 +188,7 @@ show ip nat translations
 ```
 ![](00-obrazky/test-2-show-ip-nat-translation20250811123336.png)
 
-Vidíme, že se provádí překlad adres – Inside Local se převádí na Inside Global, což potvrzuje, že NAT nyní funguje správně.
+Vidíme, že se provádí překlad adres - Inside Local se převádí na Inside Global, což potvrzuje, že NAT nyní funguje správně.
 
 ### Závěr
 
@@ -203,7 +203,7 @@ Poučení: při potížích s NATem se vždy podívej na **Outside Interface** v
 
 
 
-## 9.4 – ACL: prohozené pořadí pravidel 
+## 9.4 - ACL: prohozené pořadí pravidel 
 
 PC-4 (VLAN 40) ztratil přístup k serveru **10.10.10.100**, zatímco ostatní VLANy fungují bez problémů. Na první pohled vypadá ACL správně a je aplikováno na správném rozhraní, chyba je však v **pořadí pravidel**, tzv její logice.  
 
@@ -300,7 +300,7 @@ Pomocí tohoto výpisu si ověříme, že pravidlo **permit** pro adresu 10.10.1
 
 Po úpravě ACL jsme si ověřili, že ping z PC-4 na server už bez problémů prochází. Pomocí výpisu jsme potvrdili, že nastavené pravidlo teď funguje tak, jak má a odpovídá tomu, co jsme chtěli, tedy povolit komunikaci na správnou adresu. Díky tomu víme, že ACL je nastavené správně a síť se chová podle očekávání.
 
-## 9.5 – Shrnutí 
+## 9.5 - Shrnutí 
 
 V kapitole jsme postupně řešili několik záměrně vložených chyb v konfiguraci sítě. Nejprve jsme opravili nastavení NAT s parametrem _overload_, které bránilo správnému překladu adres. Následně jsme odstranili chybu v přiřazení VLAN a nastavili správné porty. Poté jsme opravili chybné pořadí pravidel v ACL, kdy bylo pravidlo _deny_ uvedeno před _permit_, což blokovalo požadovanou komunikaci. 
 
