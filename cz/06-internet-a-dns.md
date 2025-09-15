@@ -12,7 +12,7 @@ Nakonec ověříme, že požadavky z VLAN prochází přes NAT/PAT na R1 a jsou 
 
 V tomto kroku nastavujeme na Internet-Serveru pevnou IP adresu, aby mohl komunikovat s hraničním routerem R2 a poskytovat služby pro naši síť.
 
-Na serveru otevíráme **Desktop → IP Configuration** a přepínáme režim na **Static**. Do příslušných polí zadáváme:
+Na serveru otevíráme **Desktop -> IP Configuration** a přepínáme režim na **Static**. Do příslušných polí zadáváme:
 
 - IPv4 Address: `10.10.10.100`
     
