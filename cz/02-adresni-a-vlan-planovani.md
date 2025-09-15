@@ -1,13 +1,13 @@
-# **2 – Adresní a VLAN plánování**
+# **2 - Adresní a VLAN plánování**
 
 
-## 2.1 – Úvod
+## 2.1 - Úvod
 
 V této kapitole stanovíme logické rozdělení sítě, přiřadíme statické IP adresy a VLAN jednotlivým zařízením.  
 Cílem je síť uspořádat, rozdělit do oddělených, bezpečných segmentů pro zaměstnance i zákazníky a vytvořit WAN propojení směrem k simulovanému poskytovateli internetu.
 
 
-## 2.2 – IP adresace a přehled podsítí
+## 2.2 - IP adresace a přehled podsítí
 
 Každé zařízení ve vnitřní síti má staticky přiřazenou IP adresu. Adresy jsou přiděleny dle VLAN, do kterých jednotlivá zařízení spadají. Všechny VLANy využívají masku podsítě /24 (255.255.255.0), což odpovídá běžnému nastavení pro menší a střední podniky.
 
@@ -24,7 +24,7 @@ Každé zařízení ve vnitřní síti má staticky přiřazenou IP adresu. Adre
 >**Poznámka:** V tomto návrhu zatím nevyužíváme DHCP server. Cílem je demonstrovat správné manuální přiřazení IP adres. 
 
 
-## 2.3 – VLAN plánování
+## 2.3 - VLAN plánování
 
 Pro účely tohoto projektu využíváme VLAN (Virtual Local Area Network) pro oddělení provozu mezi různými typy zařízení a uživatelů v kavárně. Rozdělení pomocí VLAN zvyšuje bezpečnost, zjednodušuje správu a přispívá k efektivnějšímu směrování provozu v síti.
 
@@ -41,7 +41,7 @@ Každá VLAN bude mít vlastní IP podsíť a bude nakonfigurována na rozhraní
 
 
 
-## 2.4 – Vysvětlení propojení mezi Router R2 a Router R1
+## 2.4 - Vysvětlení propojení mezi Router R2 a Router R1
 
 V tomto projektu slouží **Router R2 jako hraniční bod sítě**, který představuje připojení k internetu.  
 Je propojen s Routerem R1, který zajišťuje komunikaci v rámci interních VLAN.
@@ -52,7 +52,7 @@ Router R2 **nepoužívá výchozí bránu**, protože simulace končí na server
 
 ---
 
-### 2.5 – Význam NAT/PAT v projektu
+### 2.5 - Význam NAT/PAT v projektu
 
 - NAT/PAT je nakonfigurován **na Routeru R1**, kde dochází k překladu privátních IP na veřejnou.
     
