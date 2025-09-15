@@ -73,7 +73,7 @@ write memory
 ```
 ![](00-obrazky/nastaveni-ip20250806232510.png)
 >**Poznámka:** Router R2 simuluje poskytovatele internetu (ISP) a je propojen se serverem, který simuluje Internetové služby. Nemá výchozí bránu a funguje jako konečný bod směrem k serveru.
-### Router R1 – propojení s R2 a aktivace portu se switchem
+### Router R1 - propojení s R2 a aktivace portu se switchem
 
 - `Gig0/0`: Komunikuje s R2 (adresa `192.168.99.2`)
     
