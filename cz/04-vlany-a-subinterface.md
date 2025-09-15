@@ -1,7 +1,7 @@
 # 4 – **Vlany a subinterface**
 
 
-## 4.1 – Úvod
+## 4.1 - Úvod
 
 V této kapitole se pustíme do konfigurace virtuálních LAN (VLAN-Virtual Local Area Network) a směrování mezi nimi pomocí technologie **Router-on-a-Stick**. Jde o klíčový krok pro oddělení síťového provozu mezi zaměstnanci a hosty, přičemž komunikace mezi jednotlivými segmenty bude procházet centrálním routerem R1. 
 
@@ -9,7 +9,7 @@ Na switchi SW1 vytvoříme jednotlivé VLANy, přiřadíme jim porty, nakonfigur
 
 
 
-## 4.2 – Vytvoření VLAN na switchi SW1
+## 4.2 - Vytvoření VLAN na switchi SW1
 
 Abychom mohli síť rozdělit do logických segmentů (např. zaměstnanci, hosté), musíme nejprve na přepínači SW1 vytvořit jednotlivé VLANy. Každá VLAN bude mít vlastní ID a název, který zjednoduší orientaci v konfiguraci.
 
@@ -44,7 +44,7 @@ write memory
  > **Poznámka**: VLAN 10 označujeme jako „Staff-1“ a slouží pro zaměstnance – konkrétně PC-1, který je zároveň ve stejné podsíti jako router R1.
 
 
-## 4.3 – Přiřazení portů do VLAN
+## 4.3 - Přiřazení portů do VLAN
 
 Po vytvoření jednotlivých VLAN je nutné určit, které fyzické porty přepínače SW1 budou přiřazeny ke kterým VLANám. Tím zajistíme, že konkrétní zařízení bude patřit do správného síťového segmentu.
 
@@ -98,7 +98,7 @@ Tento příkaz nám ukazuje přehled názvů všech VLAN a přiřazených portů
 
 
 
-## 4.4 – Nastavení trunk portu na SW1
+## 4.4 - Nastavení trunk portu na SW1
 
 Pro zajištění komunikace mezi VLANami a směrování přes router R1 potřebujeme, aby přepínač SW1 přenášel rámce všech VLAN směrem k routeru. K tomu použijeme tzv. **trunk port**.
 
@@ -147,7 +147,7 @@ Pro ověření, že port `GigabitEthernet0/1` na přepínači SW1 skutečně fun
 
 
 
-## 4.5 – Subrozhraní na R1 (Router-on-a-Stick)
+## 4.5 - Subrozhraní na R1 (Router-on-a-Stick)
 
 Aby mohly jednotlivé VLANy mezi sebou komunikovat a měly přístup k internetu, je třeba na routeru R1 vytvořit tzv. **subrozhraní**. Jedná se o logická rozhraní vytvořená nad jedním fyzickým portem `GigabitEthernet0/1`, který je propojen se switchem SW1 pomocí trunk portu.
 
@@ -256,7 +256,7 @@ Testy potvrdily **správné směrování** mezi VLANami i spojení s R1.
 
 
 
-## 4.7 – Shrnutí
+## 4.7 - Shrnutí
 
 V této části jsme vytvořili VLANy a přiřadili k nim odpovídající porty na switchi. Na jednom z portů jsme nakonfigurovali trunk pro přenos rámců z více VLAN. Na routeru R1 jsme vytvořili subrozhraní pro jednotlivé VLANy (Router-on-a-Stick) a přiřadili jim odpovídající IP adresy pro směrování mezi VLANami. Pomocí příkazů `ping` a průběžné diagnostiky jsme ověřili, že počítače mohou komunikovat v rámci svých VLAN i s routerem R1.
 
