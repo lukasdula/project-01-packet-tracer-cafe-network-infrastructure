@@ -1,8 +1,8 @@
-# **7 – Zabezpečení sítě**
+# **7 - Zabezpečení sítě**
 
 
 
-## 7.1 – Úvod
+## 7.1 - Úvod
 
 
 Bezpečnost je klíčová pro každou síť. I dobře navržená topologie je zranitelná, pokud není chráněna proti neoprávněnému přístupu a zneužití. V této kapitole ukážeme, jak z modelové sítě kavárny udělat spolehlivé a bezpečné prostředí.
@@ -11,7 +11,7 @@ Projdeme základní kroky, jako je nastavení uživatelských účtů a hesel, v
 
 Cílem je vytvořit síť, která je funkční a zároveň odolná proti běžným hrozbám v lokálním prostředí.
 
-## 7.2 – Přihlášení pomocí uživatelského jména a hesla + heslo pro privilegovaný režim
+## 7.2 - Přihlášení pomocí uživatelského jména a hesla + heslo pro privilegovaný režim
 
 Aby se do zařízení dostali jen oprávnění uživatelé, nastavíme lokální účet s uživatelským jménem a heslem **(username + password)** a současně heslo pro privilegovaný režim **(enable secret)**.  
 
@@ -50,7 +50,7 @@ write memory
 **Po opětovném zobrazení konfigurace budou hesla zakódovaná.**
 
 
-## 7.3 – Zabezpečení konzolového přístupu (login local)
+## 7.3 - Zabezpečení konzolového přístupu (login local)
 
 Aby se zařízení při připojení přes konzoli ptalo na uživatelské jméno a heslo, povolíme lokální přihlášení:
 
@@ -91,7 +91,7 @@ show running-config
 >**Poznámka:** Pro účely dokumentace byla konfigurace a diagnostika provedena pouze na routeru **R1** jako reprezentativní příklad, aby se předešlo zbytečnému opakování totožných kroků na dalších zařízeních. Stejný postup bude i u dalších typu zabezpečení.
 
 
-## 7.4 – Varovné bannery při přihlášení (MOTD + Login banner)
+## 7.4 - Varovné bannery při přihlášení (MOTD + Login banner)
 
 Varovné bannery informují každého, kdo se k zařízení připojuje, že přístup je omezený.  
 Zobrazují se **před** přihlášením a slouží jako důležité bezpečnostní i právní opatření.
@@ -127,7 +127,7 @@ Po odhlášení z relace a opětovném přihlášení se před výzvou k zadán�
 
 >**Poznámka:** Na switche v Packet Traceru (např. Cisco 2960) nelze použít `banner login`, podporován je pouze `banner motd`. Pokud chceme zobrazit více upozornění, je nutné je sloučit do jednoho MOTD banneru a oddělit je novým řádkem.
 
-## 7.5 – Zabezpečení Telnet přístupu (VTY lines)
+## 7.5 - Zabezpečení Telnet přístupu (VTY lines)
 
 Telnet je síťový protokol, který umožňuje vzdálený přístup k síťovým zařízením prostřednictvím příkazového řádku. Pokud není chráněn, může kdokoliv v síti získat přístup do routeru nebo switche.  
 Nastavením hesla (a volitelně uživatelského jména) na tzv. **VTY lines** (virtuálních terminálových linkách) zajistíme, že přístup přes Telnet bude povolen pouze autorizovaným uživatelům.  
@@ -181,7 +181,7 @@ Password:
 >**Poznámka:** Výše všechny použitá hesla jsou inspirována tématem naší modelové kavárny a slouží pouze pro ukázku v rámci projektu, proto nejsou názorně tak silná jako v reálné praxi.
 
 
-## 7.6 – Port Security na aktivních portech
+## 7.6 - Port Security na aktivních portech
 
 **Cílem téhle funkce je chránit všechny používané porty (zaměstnanecký i zákaznické) proti neautorizované výměně zařízení**.
 
@@ -202,7 +202,7 @@ Tím chráníme síť proti neautorizovaným zařízení.
 
 **Konfiguraci provedeme následovně:**
 
-- **PC-1** – VLAN 10 (Fa0/1)  
+- **PC-1** - VLAN 10 (Fa0/1)  
 
 ```interface Fa0/1  
 enable
@@ -217,7 +217,7 @@ switchport port-security mac-address sticky
 exit
 ```
 
-- **PC-2** – VLAN 20 (Fa0/2)  
+- **PC-2** - VLAN 20 (Fa0/2)  
 
 
 ```
@@ -231,7 +231,7 @@ switchport port-security mac-address sticky
 exit
 ```
 
-* **PC-3** – VLAN 30 (Fa0/3)  
+* **PC-3** - VLAN 30 (Fa0/3)  
 
 ```
 interface Fa0/3  
@@ -244,7 +244,7 @@ switchport port-security mac-address sticky
 exit
 ```
 
-* **PC-4** – VLAN 40 (Fa0/4)  
+* **PC-4** - VLAN 40 (Fa0/4)  
 
 ```
 interface Fa0/4  
@@ -261,20 +261,20 @@ write memory
 
 **Stručné vysvětlení ke konfiguraci:**
 
-- **MAC adresa** – unikátní identifikátor síťové karty, podle kterého switch pozná, zda je připojeno autorizované zařízení.
+- **MAC adresa** - unikátní identifikátor síťové karty, podle kterého switch pozná, zda je připojeno autorizované zařízení.
     
-- **Maximální počet MAC** – určuje, kolik různých zařízení může být na portu povoleno.
+- **Maximální počet MAC** - určuje, kolik různých zařízení může být na portu povoleno.
     
-- **Violation mode** – akce při porušení (např. port se vypne, ale může být nastaven i režim jen logování).
+- **Violation mode** - akce při porušení (např. port se vypne, ale může být nastaven i režim jen logování).
 
 
 
-## 7.7 – Administrativní vypnutí nepoužívaných portů
+## 7.7 - Administrativní vypnutí nepoužívaných portů
 
 **Cíl:** Zabránit neautorizovanému připojení přes nepoužívané porty switche.
 
 **Úvod:**  
-Neaktivní porty na switchi jsou běžně bezpečnostní slabinou – kdokoliv by mohl připojit vlastní zařízení a získat přístup do sítě. Proto je běžnou praxí všechny nepoužívané porty **administrativně vypnout**. V naší topologii to znamená porty **Fa0/5–Fa0/24** a **Gi0/2**.
+Neaktivní porty na switchi jsou běžně bezpečnostní slabinou - kdokoliv by mohl připojit vlastní zařízení a získat přístup do sítě. Proto je běžnou praxí všechny nepoužívané porty **administrativně vypnout**. V naší topologii to znamená porty **Fa0/5–Fa0/24** a **Gi0/2**.
 
 **Postup**  
 Vypneme všechny porty, které nejsou součástí aktivní topologie.  
@@ -316,7 +316,7 @@ Show running-config
 
 Výpis potvrzuje, že port security je aktivní na požadovaných portech a nepoužívané porty jsou úspěšně administrativně vypnuté.
 
-## 7.8 – Access Control List (ACL)
+## 7.8 - Access Control List (ACL)
 
 V této části se zaměřujeme na **řízení přístupu** mezi VLANami a zařízeními v síti pomocí **Access Control Listů (ACL)**.  
 ACL nám umožňují **povolit** nebo **zakázat** určité typy provozu na základě IP adres, protokolů a portů.  
@@ -405,17 +405,17 @@ write memory
 
 ### Vysvětlení konfigurace:
 
-- `permit icmp ... echo-reply` – povoluje odpověď na ping z PC-1 a z R1, aby byla možná diagnostika.
+- `permit icmp ... echo-reply` - povoluje odpověď na ping z PC-1 a z R1, aby byla možná diagnostika.
     
-- `permit ip ... server` – umožňuje přístup k serveru (DNS a HTTP).
+- `permit ip ... server` - umožňuje přístup k serveru (DNS a HTTP).
     
-- `deny ip ... host PC-1` – blokuje neautorizovaný přístup z VLAN 20 směrem na PC-1 (mimo povolený ping).
+- `deny ip ... host PC-1` - blokuje neautorizovaný přístup z VLAN 20 směrem na PC-1 (mimo povolený ping).
     
-- `deny ip ... host R1/R2` – zamezuje přímému přístupu na routery.
+- `deny ip ... host R1/R2` - zamezuje přímému přístupu na routery.
     
-- `deny ip ... VLAN 30/40` – izoluje VLANy mezi sebou.
+- `deny ip ... VLAN 30/40` - izoluje VLANy mezi sebou.
     
-- `deny ip ... any` – implicitně zakazuje vše ostatní.
+- `deny ip ... any` - implicitně zakazuje vše ostatní.
     
 
 Stejný princip jsme použili i pro VLAN 30 a 40, pouze s úpravou adres.
@@ -486,7 +486,7 @@ Po nasazení ACL jsme ověřili, že pravidla fungují podle očekávání. Test
 
 
 
-## 7.9 – Shrnutí 
+## 7.9 - Shrnutí 
 
 V této kapitole jsme síť postupně zabezpečili – od **bannerů a hesel** (enable secret,telnet), přes **Port Security** a **vypnutí nepoužívaných portů**, až po **ACL** pro omezení komunikace mezi VLANami a povolení jak klíčových zařízení sítě (Routery, PC-1) tak i potřebných služeb, jako DNS a HTTP. 
 
