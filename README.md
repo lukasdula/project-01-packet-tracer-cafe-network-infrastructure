@@ -1,4 +1,4 @@
-# Lab01 Café Network Infrastructure
+# Project Café Network Infrastructure
 
 A small café network project in Cisco Packet Tracer (CZ & EN documentation)
 
