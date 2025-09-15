@@ -1,6 +1,6 @@
-# **6 – Internet a DNS**
+# **6 - Internet a DNS**
 
-## 6.1 – Úvod
+## 6.1 - Úvod
 
 Tady propojíme naši síť se simulovaným internetem, který zastupuje server umístěný za hraničním routerem R2. Tento server bude zajišťovat překlad domén (DNS) a jednoduchou HTTP službu pro ověření funkčnosti.
 
@@ -8,7 +8,7 @@ Nejprve nakonfigurujeme rozhraní **G0/0** na R2 směrem k serveru a na serveru 
 
 Nakonec ověříme, že požadavky z VLAN prochází přes NAT/PAT na R1 a jsou správně překládány serverem.
 
-## 6.2 – Nastavení IP adresy na serveru
+## 6.2 - Nastavení IP adresy na serveru
 
 V tomto kroku nastavujeme na Internet-Serveru pevnou IP adresu, aby mohl komunikovat s hraničním routerem R2 a poskytovat služby pro naši síť.
 
@@ -29,7 +29,7 @@ Server tak získává pevnou adresu v síti mezi ním a routerem R2, což mu umo
 >**Poznámka:** DNS server necháváme na 0.0.0.0, protože tento server sám plní roli DNS pro celou síť a nepotřebuje přeposílat dotazy jinam.
 
 
-## 6.3 – Nastavení IP adresy na portu G0/0 routeru R2
+## 6.3 - Nastavení IP adresy na portu G0/0 routeru R2
 
 Na routeru R2 je potřeba nakonfigurovat rozhraní **GigabitEthernet0/0**, aby se nacházelo ve stejné síti jako Internet-Server a mohlo směrovat provoz mezi serverem a zbytkem sítě.
 
@@ -72,7 +72,7 @@ ping 10.10.10.100
 Ping je v obou případech úspěšný, což potvrzuje správné propojení klienta i routeru s Internet-Serverem a funkční komunikaci v síti.
 
 
-## 6.4 – Konfigurace DNS a HTTP služeb na serveru
+## 6.4 - Konfigurace DNS a HTTP služeb na serveru
 
 Na serveru zapínáme služby DNS a HTTP, aby mohl poskytovat překlad doménových jmen a zároveň sloužit jako jednoduchý webový server pro testování.
 
@@ -132,7 +132,7 @@ google.com
 Ping byl v **Command Prompt** úspěšný a ověření v prohlížeči na PC-2 potvrdilo, že překlad doménového jména přes náš DNS server funguje – zadání `google.com` načetlo testovací stránku z HTTP služby serveru.
 
 
-## 6.6 – Diagnostika NAT/PAT
+## 6.6 - Diagnostika NAT/PAT
 
 Po úspěšném zprovoznění DNS služby a načtení simulovaného webu google.com tak provádíme nutnou diagnostiku funkce PAT/NAT.  
 Ověříme, zda překlad soukromých IP adres na veřejnou probíhá správně a zda je zajištěna konektivita mezi interní sítí a simulovaným internetem.
@@ -150,7 +150,7 @@ Výpis `show ip nat translations` potvrzuje funkční NAT/PAT z PC-20 (192.168.2
 
 
 
-## 6.7 – Shrnutí
+## 6.7 - Shrnutí
 
 V této kapitole jsme úspěšně propojili naši interní síť se simulovaným internetem prostřednictvím routeru R2. Na R2 jsme nakonfigurovali port směrem k serveru, který je umístěn v oddělené síti, a zajistili jeho dostupnost pro klienty. 
 Na serveru jsme nastavili a spustili DNS službu pro překlad doménových jmen a HTTP službu pro webový přístup. 
