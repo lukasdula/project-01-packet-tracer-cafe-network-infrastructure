@@ -47,7 +47,7 @@ V tomto projektu slouží **Router R2 jako hraniční bod sítě**, který před
 Je propojen s Routerem R1, který zajišťuje komunikaci v rámci interních VLAN.
 
 R2 směruje provoz ze sítě „poskytovatele“ (např. server s DNS/HTTP) do vnitřní sítě kavárny.  
-Naopak R1 odesílá provoz z VLAN směrem ven – přes R2 – k serveru simulujícímu Internet.  
+Naopak R1 odesílá provoz z VLAN směrem ven -> přes R2 -> k serveru simulujícímu Internet.  
 Router R2 **nepoužívá výchozí bránu**, protože simulace končí na serveru – tedy uvnitř vlastní sítě.
 
 ---
