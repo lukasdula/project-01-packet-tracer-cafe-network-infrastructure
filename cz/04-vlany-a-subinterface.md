@@ -224,7 +224,7 @@ Výstup potvrzuje:
 - Ostatní rozhraní nejsou použita
 
 
-## 4.6 –  Diagnostika konektivity
+## 4.6 -  Diagnostika konektivity
 
 
 Pro ověření správného směrování jsme provedli testy pomocí příkazů `ping` z různých zařízení:
