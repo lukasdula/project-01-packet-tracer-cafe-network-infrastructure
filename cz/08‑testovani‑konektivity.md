@@ -1,8 +1,8 @@
-# 8 – Testování konektivity
+# 8 - Testování konektivity
 
 
 
-## 8.1 – Úvod
+## 8.1 - Úvod
 
 V této kapitole provedeme cílenou diagnostiku, která potvrdí funkčnost celé sítě po konfiguraci všech prvků z kapitol 1–7.  
 
