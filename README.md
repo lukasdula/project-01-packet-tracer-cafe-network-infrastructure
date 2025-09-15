@@ -1,6 +1,6 @@
 # Project Café Network Infrastructure
 
-A small café network project in Cisco Packet Tracer (CZ & EN documentation)
+A small café network project was created in Cisco Packet Tracer (CZ & EN documentation)
 
 This repository contains my first networking project created in Cisco Packet Tracer.
 
