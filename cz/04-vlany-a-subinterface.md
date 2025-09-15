@@ -1,4 +1,4 @@
-# 4 – **Vlany a subinterface**
+# 4 - **Vlany a subinterface**
 
 
 ## 4.1 - Úvod
