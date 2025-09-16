@@ -48,6 +48,7 @@ Uživatelské heslo: `Espresso25`
 
 Enable secret (privilegovaný režim): `Arabickashot25`
 
+Pro účely projektu jsou zvolena jednodušší tematická hesla. V reálném nasazení by byla použita komplexnější a delší hesla (12+ znaků, kombinace velkých/malých písmen, číslic a speciálních znaků).
 
 ## Použité nástroje
 
