@@ -49,6 +49,8 @@ User password: `Espresso25`
 
 Enable secret (privileged mode): `Arabickashot25`
 
+For the purpose of this project, simpler thematic passwords are used. In real deployment, stronger and longer passwords would be applied (12+ characters, mix of letters, numbers, and special symbols).
+
 ## Tools Used
 
 - Cisco Packet Tracer (version 8.2+) – network simulation environment  
