@@ -80,7 +80,7 @@ Pro účely projektu jsou zvolena jednodušší tematická hesla. V reálném na
 
 ## Poznámka autora
 
-Tento projekt je součástí mého **studijního portfolia** a praktické přípravy na kurz **CCNA I**.  
+Tento první projekt je součástí mého **studijního portfolia** a praktické přípravy na kurz **CCNA I**.  
 Při tvorbě jsem si osvojil klíčové principy síťování, od plánování a adresace přes konfiguraci až po diagnostiku a opravy.
 
 Nejvíc mě bavilo budování funkční sítě od úplného základu až po celek s jasným řádem a pravidly, od práce s **VLANami**, kdy síť po konfiguraci začala mezi sebou správně komunikovat, až po **komplexní zabezpečení sítě** a zavedení bezpečnostních zásad.  
