@@ -80,7 +80,7 @@ For the purpose of this project, simpler thematic passwords are used. In real de
 
 ## Author's Note
 
-This project is part of my **study portfolio** and practical preparation for the **CCNA I** course.  
+This first project is part of my **study portfolio** and practical preparation for the **CCNA I** course.  
 During its creation, I learned key networking principles, from planning and addressing to configuration, diagnostics, and troubleshooting.  
 
 What I enjoyed the most was building a functional network from scratch into a complete system with clear structure and rules: from working with **VLANs**, where the network began to communicate properly after configuration, up to **complete network security** and the implementation of security policies.  
