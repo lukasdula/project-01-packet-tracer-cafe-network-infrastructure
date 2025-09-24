@@ -53,9 +53,9 @@ For the purpose of this project, simpler thematic passwords are used. In real de
 
 ## Tools Used
 
-- Cisco Packet Tracer (version 8.2+) – network simulation environment  
+- Cisco Packet Tracer (version 8.2+) -> network simulation environment  
     
-- Visual Studio Code / Obsidian – writing and editing documentation  
+- Visual Studio Code / Obsidian -> writing and editing documentation  
     
 ## How to Run the Project
 
