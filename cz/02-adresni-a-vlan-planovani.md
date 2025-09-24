@@ -52,7 +52,7 @@ Router R2 **nepoužívá výchozí bránu**, protože simulace končí na server
 
 ---
 
-### 2.5 - Význam NAT/PAT v projektu
+## 2.5 - Význam NAT/PAT v projektu
 
 - NAT/PAT je nakonfigurován **na Routeru R1**, kde dochází k překladu privátních IP na veřejnou.
     
