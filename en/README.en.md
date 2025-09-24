@@ -89,4 +89,4 @@ I believe this work can serve as an inspiration for other networking enthusiasts
 For me, networking is not just a set of commands, but also a space for creativity and logical thinking.  
 The greatest reward is the feeling when, after many hours of configuring and fine-tuning, I see the network running cleanly, securely, and without errors.  
 
-© 2025 – Lukas Dula | Home Networking Lab & Portfolio
+© 2025 - Lukas Dula | Home Networking Lab & Portfolio
