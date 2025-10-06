@@ -89,4 +89,4 @@ Věřím, že tahle práce může být inspirací i pro další zájemce o sít�
 Síťařina pro mě není jen soubor příkazů, ale i prostor pro tvořivost a logické myšlení.  
 Největší odměnou je pro mě ten pocit, kdy po dlouhých hodinách nastavování a ladění vidím, že síť funguje čistě, zabezpečená a bez chyb.
 
-© 2025 - Lukáš Dula | Domácí síťový lab & portfolio
+© 2025 - Lukáš Dula | Domácí síťový projekt & portfolio
