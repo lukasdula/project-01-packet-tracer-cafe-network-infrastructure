@@ -4,7 +4,7 @@ This is my first network project - a small café network infrastructure created 
 
 The project was developed as part of my preparation for **CCNA I: Introduction to Networks**.
 
-![en/00-images](00-images/topology-map20250913175533.png)
+![en/00-images](topology-map20250913175533.png)
 
 ## Documentation
 The documentation is available in two languages:
