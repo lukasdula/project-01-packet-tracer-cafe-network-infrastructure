@@ -17,6 +17,12 @@ For internet connection simulation, **NAT/PAT** was configured towards router R2
 
 The network is secured using **device access passwords, VLAN separation, and restricted access between segments**, ensuring safe operation and protection against unauthorized access.
 
+
+## Topoogy Diagram
+
+![](/en/00-images/topology-map20250913175533.png)
+
+
 ## Project Structure (Chapters)
 
 1. [Network topology and used devices](01-network-topology-and-devices.md)
