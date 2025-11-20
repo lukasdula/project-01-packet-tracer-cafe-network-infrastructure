@@ -16,7 +16,7 @@ Síť byla nastavena ručně v prostředí **Cisco Packet Tracer** pomocí rozhr
 Pro simulaci připojení k internetu byl nakonfigurován **NAT/PAT** směrem k routeru R2, který zastupuje poskytovatele internetu. Součástí je také základní serverová infrastruktura (HTTP/DNS) pro testy konektivity.  
 Síť je zabezpečena pomocí **hesel pro přístup k zařízení**, **oddělení VLAN** a **omezení přístupu mezi segmenty**, což zajišťuje bezpečný provoz a ochranu před neoprávněným přístupem.
 
-## Topology Diagram
+## Topologická Mapa
 
 ![](00-obrazky/topology-map202509131755331.png)
 
