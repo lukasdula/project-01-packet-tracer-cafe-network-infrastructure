@@ -30,17 +30,8 @@ Síť je zabezpečena pomocí **hesel pro přístup k zařízení**, **oddělen�
 5. [NAT a PAT](05-nat-a-pat.md)
 6. [Internet a DNS](06-internet-a-dns.md)
 7. [Zabezpečení sítě](07‑zabezpeceni‑site.md)
-   - Lokální uživatel a heslo pro privilegovaný režim  
-   - Varování při přihlášení (MOTD banner)  
-   - Zabezpečení Telnet přístupu (VTY lines)  
-   - Port Security na zákaznických portech  
-   - Administrativní vypnutí nepoužívaných portů  
-   - Základní ACL pro omezení provozu mezi VLANami  
 8. [Testování konektivity](08‑testovani‑konektivity.md)
 9. [Řešení problémů](09‑reseni-problemu.md)
-   - 9.1 Nesprávné přiřazení VLAN ID na subinterface  
-   - 9.2 NAT/PAT neprovádí překlad kvůli overload na špatném rozhraní  
-   - 9.3 ACL - chybné pořadí pravidel blokující komunikaci  
 10. [Shrnutí a závěr](10-shrnuti-a-zaver.md)
 
 ## Přístup do CLI zařízení
