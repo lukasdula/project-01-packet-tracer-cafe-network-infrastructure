@@ -32,17 +32,8 @@ The network is secured using **device access passwords, VLAN separation, and res
 5. [NAT & PAT](05-nat-and-pat.md)
 6. [Internet and DNS](06-internet-and-dns.md)
 7. [Network security](07-network-security.md)
-   - Local user and password for privileged mode  
-   - Login warning (MOTD banner)  
-   - Telnet access security (VTY lines)  
-   - Port Security on client ports  
-   - Administratively shutting down unused ports  
-   - Basic ACL to limit traffic between VLANs  
 8. [Connectivity testing](08-connectivity-testing.md)
 9. [Troubleshooting](09‑troubleshooting.md)
-   - 9.1 Incorrect VLAN ID assignment on subinterface  
-   - 9.2 NAT/PAT overload misconfigured on wrong interface  
-   - 9.3 ACL – wrong rule order blocking communication  
 10. [Summary and conclusion](10-summary-and-conclusion.md)
 
 ## CLI device access
